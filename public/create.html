@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../src/css/grid.css">
+    <link rel="stylesheet" href="../src/css/style.css">
+</head>
+<body>
+    <div class="app">
+        <header class="">
+            <div class=" grid wide">
+                <div class="row header">
+                        <div class="col l-8 m-12 c-12">
+                            <div class="header-top">
+                                <img src="https://ebook.waka.vn/themes/desktop/images/logo-waka.png?v=1" alt="" class="logo">
+                                <div class="header-search">
+                                    <input type="text" class="search__input" placeholder="Nhập tên sách, tuyển tập, tác giả,...">
+                                    <button type="submit" class="btn btn-search">
+                                        <i class="fas fa-search"></i>
+                                        Tìm kiếm
+                                    </button>
+                                </div>
+                            </div>
+                        </div>                  
+                    <div class="col l-4 m-0 c-0">
+                        <button class="btn header-login">Đăng nhập</button>
+                    </div>
+                </div>
+                <nav class="header-nav">
+                    <ul class="header-nav__list row">
+                        <li class="header-nav__item col l-2 m-4 c-4">
+                            <a href="/" class="header-nav__link">
+                                <i class="fas fa-bars"></i>
+                                Danh mục
+                            </a>
+                        </li>
+                        <li class="header-nav__item col l-2 m-4 c-4"><a href="/" class="header-nav__link">Sách mới nhất</a></li>
+                        <li class="header-nav__item col l-2 m-4 c-4"><a href="/" class="header-nav__link">Bảng xếp hạng</a></li>
+                        <li class="header-nav__item col l-2 m-4 c-4"><a href="/" class="header-nav__link">Miễn phí HOT</a></li>
+                        <li class="header-nav__item col l-2 m-4 c-4"><a href="/" class="header-nav__link">Tuyển tập</a></li>
+                        <li class="header-nav__item col l-2 m-4 c-4"><a href="/" class="header-nav__link">Khuyên đọc</a></li>
+                
+                    </ul>
+                </nav>
+            </div>   
+        </header>
+        <div class="create grid wide">
+            <h1>Tạo mới sản phẩm</h1>
+            <div class="create__item">
+                <label for="">Tên sách</label>
+                <input type="text" name="title">
+            </div>
+            <div class="create__item">
+                <label for="">Tác giả</label>
+                <input type="text" name="author">
+            </div>
+            <div class="create__item">
+                <label for="">Bìa sách</label>
+                <input type="text" name="image">
+            </div>
+            <div class="create__item">
+                <label for="">Mô tả</label>
+                <input type="text" name="description">
+            </div>
+            <div class="create__submit">
+                <button id="create">create</button>
+            </div>
+        </div>
+        <footer>
+            <div class="footer__info">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-3 m-6 c-12">
+                            <h2 class="footer__info-title">THÔNG TIN HỮU ÍCH</h2>
+                            <ul class="footer__infor-list">
+                                <li class="footer__infor-item">
+                                    <a href="" class="footer__infor-link">Giới thiệu chung</a>
+                                </li>
+                                <li class="footer__infor-item">
+                                    <a href="" class="footer__infor-link">Review Truyện - Café Sách</a>
+                                </li>
+                                <li class="footer__infor-item">
+                                    <a href="" class="footer__infor-link">Tin Tức</a>
+                                </li>
+                                <li class="footer__infor-item">
+                                    <a href="" class="footer__infor-link">Thử thách đọc truyện</a>
+                                </li>
+                                <li class="footer__infor-item">
+                                    <a href="" class="footer__infor-link">Thỏa thuận sử dụng dịch vụ</a>
+                                </li>
+                                <li class="footer__infor-item">
+                                    <a href="" class="footer__infor-link">quyền lợi</a>
+                                </li>
+                                <li class="footer__infor-item">
+                                    <a href="" class="footer__infor-link">quy định riêng tư</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-6 m-6 c-12">
+                            <h2 class="footer__info-title">THÔNG TIN LIÊN HỆ</h2>
+                            <ul class="footer__infor-list text-cemter">
+                                <li class="footer__infor-item">
+                                   <span class="footer__infor-phone">
+                                    <i class="fas fa-phone-alt"></i>
+                                    0816569931
+                                   </span>
+                                </li>
+                                <li class="footer__infor-item">
+                                    <span class="footer__infor-text">Tổng đài tư vấn miễn phí</span>
+                                </li>
+                                <li class="footer__infor-item">
+                                    <span class="footer__infor-text">(8:00 AM - 22:00 PM)</span>
+                                </li>
+                                <li class="footer__infor-item">
+                                    <div class="footer__infor-social">
+                                        <i class="fab fa-facebook"></i>
+                                        <i class="fab fa-youtube"></i>
+                                        <i class="fab fa-instagram"></i>
+                                    </div>
+                                </li> 
+                            </ul>
+                        </div>
+                        <div class="col l-3 m-12 c-12">
+                            <h2 class="footer__info-title">ỨNG DỤNG DI ĐỘNG</h2>
+                            <ul class="dowload">
+                                <li class="dowload__item">
+                                    <img src="https://ebook.waka.vn/android-qr.png?v=1" alt="" class="dowload__image">
+                                </li>
+                                <ul class="dowload__infor">
+                                    <li class="dowload__text"><span>Hệ điều hành Android</span></li>
+                                    <li class="dowload__text"><span>Phiên bản ứng dụng: 7.4</span></li>
+                                    <li class="dowload__text"><span>Ngày đăng: 06/12/2019</span></li>
+                                </ul>
+                            </ul>
+                            <ul class="dowload">
+                                <li class="dowload__item">
+                                    <img src="https://ebook.waka.vn/ios-qr.png?v=2" alt="" class="dowload__image">
+                                </li>
+                                <ul class="dowload__infor">
+                                    <li class="dowload__text"><span>Hệ điều hành IOS</span></li>
+                                    <li class="dowload__text"><span>Phiên bản ứng dụng: 7.4</span></li>
+                                    <li class="dowload__text"><span>Ngày đăng: 06/12/2019</span></li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="../src/js/main.js"></script>
+
+</html>
